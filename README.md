@@ -20,9 +20,7 @@ MindWIKI is an AI-powered study assistant and personal knowledge base. It helps 
 1. Copy `.env.example` to `.env` and fill in your own keys.  
 2. Build and run with Docker:
 
-docker compose build
-docker compose up -d
-
-text
+```docker compose build```
+```docker compose up -d```
 
 Frontend runs on `http://localhost:3000`, backend on `http://localhost:8000`.
